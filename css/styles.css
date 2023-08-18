@@ -1,0 +1,482 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/* Navigation Bar */
+.navi{
+  position: fixed;
+  width: 100%;
+}
+.nav-item{
+  display: block;
+}
+.nav-item:hover{
+ 
+  background-color: #04AA6D;
+}
+.second{
+  display:none ;
+}
+.topnav{
+    background-color: white;
+    overflow: hidden;
+  }
+ .topnav .logo{
+    font-size: 25px;
+    color: #04AA6D;
+    line-height: 15px;
+  }
+  .topnav .logo:hover{
+    background-color: white;
+    color: #04AA6D;
+  }
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .login-btn{
+    background-color: #04AA6D;
+    
+  }
+  .login-btn a{
+    float: right;
+    border-radius: 25px;
+
+  }
+
+  
+  .midnav{
+    background-color: #282A35;
+    overflow: hidden;
+  }
+  .midnav a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  .midnav a:hover{
+    background-color: black;
+  }
+  .head{
+    height: 600px;
+    color: white;
+    background-color: #282A35;
+    text-align: center;
+    padding-top: 200px;
+  }
+  .head a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  .head a:hover{
+    color: #04AA6D;
+  }
+  .search-bar{
+    font-size: 17px;
+    border-radius: 25px;
+    border: 1px solid #282A35;
+    border-right: 1px solid #04AA6D;
+    height: 45px;
+    width: 20%;
+    padding: 20px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    outline:0;
+    margin: -1px;
+  }
+  .search-btn{
+    margin: -2px;
+    font-size: 17px;
+    height: 45px;
+    border-radius: 25px;
+    padding: 10px;
+    border: 1px solid #282A35;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: none;
+    background: #04AA6D;
+    width: 5%;
+    color: #D9EEE1;
+    font-weight: bold;
+  }
+  h1{
+    font-size: 5rem;
+    font-weight: bold;
+  }
+  /* Courses */
+  .html-content{
+    display: flex;
+    background-color: #D9EEE1;
+    height: 620px;
+    
+  }
+  .html-box{
+    color: black;
+   padding-top: 150px;
+   text-align: center;
+   margin-right: 100px;
+  padding-left: 30%;
+  }
+  .css-content{
+    display: flex;
+    background-color: #FFF4A3;
+    height: 620px;
+  }
+  .css-box{
+    color: black;
+   padding-top: 150px;
+   text-align: center;
+   margin-right: 100px;
+  padding-left: 30%;
+  }
+  .js-content{
+    display: flex;
+    background-color: #282A35;
+    height: 620px;
+  }
+  .python-content{
+    display: flex;
+    background-color: #D9EEE1;
+    height: 620px;
+  }
+  .js-box{
+    color: white;
+   padding-top: 150px;
+   text-align: center;
+   margin-right: 100px;
+  padding-left: 20%;
+  }
+  .html-example,
+  .css-example,
+  .js-example
+  {
+    height: 450px;
+    width: 420px;
+    background-color: #E7E9EB;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    margin-top: 150px;
+    padding:15px;
+  }
+  .python-example{
+    height: 370px;
+    width: 420px;
+    background-color: #E7E9EB;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    margin-top: 150px;
+    padding:15px;
+  }
+  .py-inner-box{
+    padding: 10px;
+    height: 250px;
+    width: 380px;
+    border: 1px solid black;
+    background-color: white;
+  }
+  .inner-box{
+    padding: 10px;
+    height: 300px;
+    width: 380px;
+    border: 1px solid black;
+    background-color: white;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  .round-box{
+  border-radius: 25px;
+  height: 40px;
+  line-height: 40px;
+  width: 200px;
+  margin: 20px;
+  font-weight: bold;
+  }
+  .green-box{
+    background-color: #04AA6D;
+    color: white;
+    text-align: center;
+  }
+  .yellow-box,
+  .yellow-box a{
+    background-color:#FFF4A3 ;
+    color: #282A35;
+  }
+  .black-box,
+  .black-box a{
+    background-color: #282A35;
+  }
+  .pink-box,
+  .pink-box a{
+    background-color: #FFC0C7;
+    color: black;
+  }
+.white-box,
+.white-box a {
+  background-color: white;
+color: black;
+}
+.subject-box{
+height: 2200px;
+width: 100%;
+background-color: #282A35;
+padding: 100px  200px;
+}
+.sub-boxes{
+  float: left;
+  height: 250px;
+  width: 550px;
+  margin: 0px 80px 70px 0px;
+  text-align: center;
+  padding: 27px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.sub-rbox{
+  position: relative;
+  top: 20px;
+  left: 135px;
+}
+.sub-small-boxex{
+  float: left;
+  height: 250px;
+  width: 235px;
+  margin: 0px 80px 70px 0px;
+  text-align: center;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+/* Learning Box */
+.learning-box{
+  width: 100%;
+  height: 900px;
+  background-color: #D9EEE1;
+  text-align: center;
+  padding: 100px;
+}
+.sign-up-btn{
+  position: relative;
+  top: 20px;
+  left: 550px;
+  height: 50px;
+  line-height: 50px;
+  width: 300px;
+  font-size: 18px;
+}
+/* Premium */
+.pro-user{
+  width: 100%;
+  height: 500px;
+  color: #D9EEE1;
+  background-color: #282A35;
+  text-align: center;
+}
+.pro-user a{
+  text-decoration: underline;
+}
+.pro-user a:hover{
+  color: #04AA6D;
+}
+.learn-more{
+  position: relative;
+  top: 20px;
+  left: 650px;
+  height: 50px;
+  line-height: 50px;
+  width: 300px;
+  font-size: 18px;
+
+}
+.learn-more a{
+  text-decoration: none;
+}
+.learn-more a:hover{
+  color: #D9EEE1;
+}
+/* Color Picker */
+.color-picker{
+  height: 500px;
+  background-color: #D9EEE1;
+  color: black;
+  padding-top:50px ;
+  text-align: center;
+}
+/* Exercises and Quizzes */
+.quize{
+  height: 600px;
+  background-color: #282A35;
+  text-align: center;
+  color: white;
+}
+.Exercises{
+  padding:80px 0px 0px 250px;
+}
+/* Web Template */
+.web-template{
+  height: 750px;
+  background-color: #E7E9EB;
+  text-align: center;
+}
+.web-text{
+  font-size: 60px;color: black;font-weight: bold;padding-top: 70px;
+}
+.browse{
+  position: relative;
+  top: 20px;
+  left: 500px;
+  height: 60px;
+  line-height: 60px;
+  width: 600px;
+  border-radius: 60px;
+}
+/* Social handle */
+.social-handle{
+  background-color: #D9EEE1;
+  height: 200px;
+}
+.social-inner-box{
+  position: relative;
+  top: 50px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.social-icon{
+  margin: 10px;
+}
+/* Footer */
+footer{
+  background-color: red;
+}
+.footer-content{
+  float: left;
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  padding-left:90px;
+  margin: 50px;
+  font-size: 13px;
+}
+.footer-heading{
+  font-size: 15px;
+  font-weight: bold;
+}
+   @media screen and (max-width:500px){
+
+    .main{
+      
+      display: none;
+    }
+    .second{
+      display: block;
+    }
+    
+    .html-example,
+  .css-example,
+  .js-example,
+  .python-example{
+      display: none;
+    }
+    h1{
+      font-size: 50px;
+    }
+    .search-bar{
+      width: 250px;
+    }
+    .search-btn{
+      width: 100px;
+    }
+    .subject-box{
+      padding: 0px;
+    }
+    .subject-box{
+      height: 4200px;
+    }
+    .sub-boxes{
+      margin: 10px;
+      width: 450px;
+    }
+    .sub-rbox{
+      position: relative;
+      top: 20px;
+      left: 80px;
+    }
+    .sub-small-boxex{
+      margin: 10px;
+      width: 450px;
+    }
+    .learning-box{
+      padding: 10px;
+      height: 700px;
+    }
+    .learning-box h1{
+      padding-top: 100px;
+      font-size: 50px;
+    }
+    .learning-box p{
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .learning-box img{
+      width: 85%;
+    }
+    .sign-up-btn{
+      position: relative;
+      top: 20px;
+      left: 80px;
+    }
+    .pro-user{
+      padding: 50px;
+      height: 650px;
+    }
+    .learn-more{
+      position: relative;
+      top: 20px;
+      left: 30px;
+    }
+    .quize{
+      height: 800px;
+    }
+    .Exercises{
+      padding: 0px 0px 50px 50px;
+    }
+    .eq-box{
+      margin-top: 30px;
+      width: 400px;
+    }
+    .web-template{
+      height: 580px;
+    }
+    .web-text{
+      font-size: 50px;
+    }
+    .web-template img{
+      height: 25%;
+    }
+    .browse{
+      position: relative;
+      left: 10px;
+      width: 90%;
+    }
+  }
+ 
+
+  
+  
+  
+  
+  
